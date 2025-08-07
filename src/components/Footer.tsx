@@ -3,10 +3,6 @@ import React from 'react';
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -108,18 +104,20 @@ const Footer: React.FC = () => {
             <h5 className="fw-bold mb-3 text-white">Contactos</h5>
             <div className="text-white-50">
               <p className="mb-2">
-                <i className="bi bi-geo-alt me-2"></i>
-                Av. João Paulo II, 40 1º<br />
-                2970-868 SESIMBRA
+                <i className="bi bi-geo-alt me"></i>
+                <a href="https://www.google.com/maps/search/?api=1&query=Av.+João+Paulo+II,+40+1º,+2970-868+SESIMBRA" target="_blank" rel="noopener" className="text-white-50 text-decoration-none">
+                  Av. João Paulo II, 40 1º<br />
+                  2970-868 SESIMBRA
+                </a>
               </p>
               <p className="mb-2">
-                <i className="bi bi-envelope me-2"></i>
+                <i className="bi bi-envelope me"></i>
                 <a href="mailto:info@myfitnessclub.pt" className="text-white-50 text-decoration-none">
                   info@myfitnessclub.pt
                 </a>
               </p>
               <p className="mb-2">
-                <i className="bi bi-clock me-2"></i>
+                <i className="bi bi-clock me"></i>
                 Seg-Sex: 7h-22h<br />
                 Sáb: 9h-13h | 18h-20h<br />
                 Dom: 9h-13h
