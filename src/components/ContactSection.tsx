@@ -74,9 +74,9 @@ const ContactSection: React.FC = () => {
                   <p className="mb-0 text-white-50">
                     <i className="bi bi-geo-alt-fill me" style={{fontSize: '0.9rem', color: 'var(--accent-red)'}}></i>
                     <a href="https://www.google.com/maps/search/?api=1&query=Av.+João+Paulo+II,+40+1º,+2970-868+SESIMBRA" target="_blank" rel="noopener" className="text-white-50 text-decoration-none">
-                  Av. João Paulo II, 40 1º. 2970-868 SESIMBRA<br />
-                  
-                </a><br />
+                  Av. João Paulo II, 40 1º. 2970-868 SESIMBRA
+
+                </a>
                     
                   </p>
                 </div>

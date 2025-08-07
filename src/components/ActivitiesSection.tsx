@@ -98,7 +98,7 @@ const ActivitiesSection: React.FC = () => {
         </div>
 
         <div className="row g-4">
-          {activities.map((activity, index) => (
+          {activities.map((activity) => (
             <div key={activity.name} className="col-lg-4 col-md-6">
               <div className="card h-100 shadow-sm border-0 activity-card">
                 <div className="card-body p-4">
